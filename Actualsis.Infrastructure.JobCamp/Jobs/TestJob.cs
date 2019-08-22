@@ -1,6 +1,6 @@
 ﻿using Actualsis.Base.Common;
 using Actualsis.Core.Repository;
-using Actualsis.Infrastructure.JobCamp.Common;
+
 using Quartz;
 using System;
 using System.Threading.Tasks;
