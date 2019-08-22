@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Actualsis.Infrastructure.JobCamp.Common
+namespace Actualsis.Core.Repository
 {
     public class DapperHelper
     {
