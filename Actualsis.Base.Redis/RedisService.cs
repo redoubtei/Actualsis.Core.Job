@@ -2,7 +2,8 @@
 using System;
 using System.Collections.Concurrent;
 
-namespace Actualsis.Infrastructure.Redis
+namespace Actualsis.Base.Redis
+
 {
     public class RedisService : IDisposable
     {

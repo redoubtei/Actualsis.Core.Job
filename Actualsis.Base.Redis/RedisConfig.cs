@@ -1,4 +1,5 @@
-﻿namespace Actualsis.Infrastructure.Redis
+﻿namespace Actualsis.Base.Redis
+
 {
     public class RedisConfig
     {

@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 UI", "01 UI", "{2BB20D39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Infrastructure", "02 Infrastructure", "{D549BC42-00AD-44AF-BA1C-AD01C4008D94}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actualsis.Infrastructure.Redis", "Actualsis.Infrastructure.Redis\Actualsis.Infrastructure.Redis.csproj", "{63F4A27F-1A90-4748-B37A-9FE76144DC56}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Common", "03 Common", "{287ED36A-0668-4D27-8CE2-04B325AA2C96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actualsis.Base.Common", "Actualsis.Base.Common\Actualsis.Base.Common.csproj", "{9F6B9169-DF92-45E5-8DBD-AA6C01182932}"
@@ -22,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actualsis.Core.Repository", "Actualsis.Core.Repository\Actualsis.Core.Repository.csproj", "{309E6BB1-1036-4A7D-BEBE-7EDF0E9DB13B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Domain", "05 Domain", "{3124D9D2-C5DB-4872-A232-A74AF81F99F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actualsis.Base.Redis", "Actualsis.Base.Redis\Actualsis.Base.Redis.csproj", "{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,6 @@ Global
 		{C44F1A1E-AFAC-45F0-AB86-172F87F0BBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44F1A1E-AFAC-45F0-AB86-172F87F0BBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44F1A1E-AFAC-45F0-AB86-172F87F0BBD3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63F4A27F-1A90-4748-B37A-9FE76144DC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63F4A27F-1A90-4748-B37A-9FE76144DC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63F4A27F-1A90-4748-B37A-9FE76144DC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63F4A27F-1A90-4748-B37A-9FE76144DC56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F6B9169-DF92-45E5-8DBD-AA6C01182932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F6B9169-DF92-45E5-8DBD-AA6C01182932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6B9169-DF92-45E5-8DBD-AA6C01182932}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +45,10 @@ Global
 		{309E6BB1-1036-4A7D-BEBE-7EDF0E9DB13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{309E6BB1-1036-4A7D-BEBE-7EDF0E9DB13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{309E6BB1-1036-4A7D-BEBE-7EDF0E9DB13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,9 +56,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3EBC471F-E3A0-4BE9-9495-5D706870FBDA} = {2BB20D39-EAD1-44A7-A953-4F53B4086B17}
 		{C44F1A1E-AFAC-45F0-AB86-172F87F0BBD3} = {D549BC42-00AD-44AF-BA1C-AD01C4008D94}
-		{63F4A27F-1A90-4748-B37A-9FE76144DC56} = {D549BC42-00AD-44AF-BA1C-AD01C4008D94}
 		{9F6B9169-DF92-45E5-8DBD-AA6C01182932} = {287ED36A-0668-4D27-8CE2-04B325AA2C96}
 		{309E6BB1-1036-4A7D-BEBE-7EDF0E9DB13B} = {4B3C6768-15AB-4250-A0CA-D06CFFD95EEE}
+		{928DE7E4-35D4-4ADA-99C9-546E36A1CF2D} = {287ED36A-0668-4D27-8CE2-04B325AA2C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08C23613-8979-499F-9ED5-62F3E6DD6F6F}
