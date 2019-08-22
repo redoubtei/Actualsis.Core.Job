@@ -1,4 +1,4 @@
-﻿namespace Actualsis.Infrastructure.JobCamp.Common
+﻿namespace Actualsis.Base.Common
 {
     public class ConnectionStrings
     {

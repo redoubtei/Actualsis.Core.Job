@@ -1,5 +1,5 @@
-﻿using Actualsis.Infrastructure.JobCamp.Common;
-using Actualsis.Infrastructure.JobCamp.Common.downconfig;
+﻿using Actualsis.Base.Common;
+using Actualsis.Infrastructure.JobCamp.Common;
 using Quartz;
 using System;
 using System.Threading.Tasks;
@@ -18,7 +18,7 @@ namespace Actualsis.Infrastructure.JobCamp.Jobs
 
                 DapperHelper dapperHelper = new DapperHelper(ConfigHelper.connectionStrings.Connection);
                 // 获取本地文件路径
-                string path = DownloadHelper.downloadConfig.Path_folder;
+                string path = ConfigHelper.downloadConfig.Path_folder;
 
                 Console.WriteLine($"=== jobKey: {jobKey} triggerKey:{triggerKey} === ");
                 Console.WriteLine($"=== path: {path} === ");

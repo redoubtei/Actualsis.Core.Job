@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Actualsis.Infrastructure.JobCamp.Common.downconfig
+namespace Actualsis.Base.Common
 {
    public class DownloadConfig
     {

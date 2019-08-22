@@ -5,29 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Common\ConfigurationManager.cs" />
-    <Compile Remove="Common\downconfig\DownloadHelper.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.60.6" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.4" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.2.0" />
-    <PackageReference Include="Quartz" Version="3.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Actualsis.Base.Common\Actualsis.Base.Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Common\downconfig\" />
+    <Reference Include="Microsoft.Extensions.Configuration.Json">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.json\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
