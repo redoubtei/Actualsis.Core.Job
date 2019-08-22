@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 UI", "01 UI", "{2BB20D39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Infrastructure", "02 Infrastructure", "{D549BC42-00AD-44AF-BA1C-AD01C4008D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actualsis.Infrastructure.Redis", "Actualsis.Infrastructure.Redis\Actualsis.Infrastructure.Redis.csproj", "{63F4A27F-1A90-4748-B37A-9FE76144DC56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Actualsis.Infrastructure.Redis", "Actualsis.Infrastructure.Redis\Actualsis.Infrastructure.Redis.csproj", "{63F4A27F-1A90-4748-B37A-9FE76144DC56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
