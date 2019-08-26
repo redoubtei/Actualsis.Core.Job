@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Actualsis.Base.Common\Actualsis.Base.Common.csproj" />
+    <ProjectReference Include="..\Actualsis.Base.Redis\Actualsis.Base.Redis.csproj" />
     <ProjectReference Include="..\Actualsis.Core.Repository\Actualsis.Core.Repository.csproj" />
   </ItemGroup>
 
